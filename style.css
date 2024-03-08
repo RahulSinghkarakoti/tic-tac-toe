@@ -1,3 +1,9 @@
+@font-face {
+    font-family: funcky;
+    src: url("SuperFunky-lgmWw.ttf");
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +11,15 @@
 }
 
 body{
-    background-color: #96E9C6;
+    background-color: #FEFFBE;
     text-align: center;
 }
 
 h1{
-    color: #6C22A6;
+    color: #472836;
     margin-top: 20px;
+    font-family: funcky;
+    font-size: 60px;
 }
 
 .container{
@@ -20,11 +28,9 @@ h1{
     align-items: center;
 }
 
-.game{
-    /* background-color: #2D9596; */
+.game{ 
     width: 60vmin;
-    height: 60vmin; 
-    margin-top: 7vh;
+    height: 60vmin;  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,24 +39,25 @@ h1{
 }
 
 .box{
-    background-color: #6962AD;
-    color: #83C0C1;
+    background-color: #EBD494;
+    color: #454948;
     width: 18vmin;
     height: 18vmin;
     /* border-color: #96E9C6; */
     border-radius: 36px; 
-    font-size: xxx-large; 
+    font-size: 80px; 
+    font-weight: bolder;
 }
 
 #reset{
-    background-color: red;
-    color: white;
+    background-color: #D7EBBA;
+    color: #472836;
     width: 28vmin;
     height: 8vmin;
     /* border-color: #96E9C6; */
     border-radius: 20px; 
-    font-size: medium; 
-    margin-top: 33px;
+    font-size: 25px;  
+    font-weight: 400;
 
 }
 

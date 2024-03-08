@@ -30,21 +30,21 @@ h1{
 }
 
 .game{ 
-    width: 60vmin;
-    height: 60vmin;  
+    width: 78vmin;
+    height: 66vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:2.5vmin;
+    gap:1.0vmin;
 }
 
 
 .box{
     background-color: #EBD494;
     color: #454948;
-    width: 18vmin;
-    height: 18vmin;
+    width: 15vmin;
+    height: 15vmin;
     /* border-color: #96E9C6; */
     border-radius: 36px; 
     font-size: 80px; 
@@ -107,8 +107,13 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
-     .game{
-        /* width:40vh; */
-        height: 70vh;
+     .game{ 
+           width: 481px;
+        height: 368px;
      }
+     .box{
+        width: 119px;
+        height: 114px;
+     }
+      
   }

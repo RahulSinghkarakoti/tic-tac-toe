@@ -30,21 +30,21 @@ h1{
 }
 
 .game{ 
-    width: 60vmin;
-    height: 60vmin;  
+    width: 78vmin;
+    height: 66vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:2.5vmin;
+    gap:1.0vmin;
 }
 
 
 .box{
     background-color: #EBD494;
     color: #454948;
-    width: 18vmin;
-    height: 18vmin;
+    width: 15vmin;
+    height: 15vmin;
     /* border-color: #96E9C6; */
     border-radius: 36px; 
     font-size: 80px; 
@@ -105,4 +105,8 @@ h1{
     border-radius: 20px; 
     margin-bottom: 15px;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> f59f5272401ab97424f370c8bc950dee688b1bca

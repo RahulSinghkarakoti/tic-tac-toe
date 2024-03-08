@@ -23,7 +23,8 @@ h1{
 }
 
 .container{
-    height: 70vh;display: flex; 
+    height: 70vh;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
@@ -37,6 +38,7 @@ h1{
     align-items: center;
     gap:2.5vmin;
 }
+
 
 .box{
     background-color: #EBD494;
@@ -58,7 +60,17 @@ h1{
     border-radius: 20px; 
     font-size: 25px;  
     font-weight: 400;
+}
 
+#reset:hover{
+    background-color: #9AD2CB;
+    color: #472836;
+    width: 28vmin;
+    height: 8vmin;
+    /* border-color: #96E9C6; */
+    border-radius: 20px; 
+    font-size: 25px;  
+    font-weight: 400;
 }
 
 .msg_container{
@@ -75,6 +87,7 @@ h1{
     margin-top: 40vmin;
     font-size: xxx-large;
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .hide{
@@ -82,12 +95,20 @@ h1{
 }
 
 #new-btn{
-    background-color: red;
-    color: white;
+    background-color: #D7EBBA;
+    color: #472836;
     width: 18vmin;
     height: 8vmin; 
     border-radius: 5px; 
     font-size: medium; 
     margin-top: 10px;
+    border-radius: 20px; 
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+     .game{
+        /* width:40vh; */
+        height: 70vh;
+     }
+  }
